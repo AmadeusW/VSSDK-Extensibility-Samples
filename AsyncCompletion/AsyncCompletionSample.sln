@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27729.4000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCompletionSample", "src\AsyncCompletionSample.csproj", "{A0D93DF7-AC74-4807-9F26-ACC15E41B294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsMacAddin", "VSMacAddin\VsMacAddin.csproj", "{53353604-FCA6-4207-9BF8-9767E97852BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCompletionCore", "AsyncCompletionCore\AsyncCompletionCore.csproj", "{6292B0D6-751A-4D6F-89EE-BACB3BDCD3EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A0D93DF7-AC74-4807-9F26-ACC15E41B294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0D93DF7-AC74-4807-9F26-ACC15E41B294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0D93DF7-AC74-4807-9F26-ACC15E41B294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53353604-FCA6-4207-9BF8-9767E97852BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53353604-FCA6-4207-9BF8-9767E97852BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53353604-FCA6-4207-9BF8-9767E97852BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53353604-FCA6-4207-9BF8-9767E97852BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6292B0D6-751A-4D6F-89EE-BACB3BDCD3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6292B0D6-751A-4D6F-89EE-BACB3BDCD3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6292B0D6-751A-4D6F-89EE-BACB3BDCD3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6292B0D6-751A-4D6F-89EE-BACB3BDCD3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
